@@ -27,7 +27,7 @@
           <p><span>When your bored</span> visit the chairman for the remedy</p>
         </div>
         <div class="form-container">
-          <form action="homebored.html">
+          <form>
             <div class="field-group">
               <label for="firstName">First Name</label>
               <input type="text" id="first-name" name="firstName" placeholder="first name">
@@ -52,7 +52,11 @@
               <img src="/images/error.png" class="error-icon" alt="error-img">
               <p class="error-text">Password cannot be empty </p>
             </div>
-            <button type="submit">Cure your boredem</button>
+            <div class="alert alert-success alert-dismissible">
+            <a href="index.html">
+              <button type="submit" class="close" data-dismiss="alert">Cure your boredem</button>
+            </a>
+          </div>
             <button onclick="document.location='index.html'">Back to the board room</button>
             <p class="form-footer">By clicking, you are agreeing to end your boredom</p>
 

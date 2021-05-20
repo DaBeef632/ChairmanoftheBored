@@ -1,4 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
-  background-image: url(/images/pexels-olya-kobruseva-5238645.jpg);
+  background-image: url(/images/coolbackground.png)
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(247, 205, 127);
+
+}
+
+
+td {
+  padding: 5px;
+  text-align: center;
+
+}
+
+th {
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 5px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  text-align: center;
+
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.table-responsive-sm pt-5  {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+

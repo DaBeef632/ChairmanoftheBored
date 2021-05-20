@@ -7,21 +7,32 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
  <link rel="stylesheet" href="/CSS/index.css">
   <title>CHAIRMAN OF THE BOARD</title>
+  <style>
+     #bottompic{
+      width: 75%;
+      height: 320px;
+      margin-top: 50px;
+      display: block;
+      border-radius: 5px;
+      border: 3rem;
+      box-shadow: black, 5px;
+    }
+  </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg text-white bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="signup.html">Secretary of the Bored</a>
+    <a class="navbar-brand text-warning" href="signup.html">Secretary of the Bored</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+          <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BOREDROOMS
           </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+          <ul class="dropdown-menu dropdown-menu-dark text-warning" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="boredbynumbers.html">Random Facts</a></li>
             <li><a class="dropdown-item" href="actbored.html">Random Activities</a></li>
             <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
@@ -31,26 +42,34 @@
     </div>
   </div>
 </nav>
-<table class="table">
-  <thead>
+<h1>WELCOME TO CHAIRMAN OF THE BORED</h1>
+<p>Where decisions are made for you to end the battle against boredom</p>
+
+<div class="table-responsive-sm pt-5">
+<table class="table mx-auto table-sm table-hover table-bordered" style="width: 75%">
+  <thead class="table-dark">
     <tr>
-      <th scope="col">Select Your Cure </th>
-      <th scope="col">Boredom by Numbers</th>
+      <th scope="col" class="col-md-4 col-lg-6 h-50 text-warning">BOREDROOMS</th>
+      <th scope="col"class="col-md-4 col-lg-6 h-50 text-warning">SELECT YOUR CURE</th>
 
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">Boredom By The Numbers</th>
-      <td><a class="btn btn-success" href="boredbynumbers.html" role="button">Boom</a></>
+      <td><a class="btn bg-dark text-warning" href="boredbynumbers.html" role="button">Boom</a>
     </tr>
     <tr>
       <th scope="row">Boredom Activities</th>
-     <td><a class="btn btn-success" href="actbored.html" role="button">Boom</a></td>
+     <td><a class="btn bg-dark text-warning" href="actbored.html" role="button">Boom</a></td>
 
     </tr>
   </tbody>
 </table>
+</div>
+
+  <img src="/images/pexels-fauxels-3183150.jpg" id="bottompic" class="rounded mx-auto d-block" width="mx-auto" height="mx-auto" alt="Responsive Image">
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
