@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>Chairman Of The Bored</title>
+ <link rel="shortcut icon" type="image/jpg" href="/images/shark.jpeg"/>
+
+</head>
+<body>
+
+  <section id="intro">
+    <div class="container">
+      <div class="left-col">
+        <h1>Welcome to Chairman Of The Bored</h1>
+        <p>
+          When you are bored, you do not know what to do. Chairman
+          of the Bored fixes that problem for you. It will provide
+          you with either random knowledge or activities depending
+          on your decision.
+        </p>
+      </div>
+      <div class="right-col">
+        <div class="top-card">
+          <p><span>When your bored</span> visit the chairman for the remedy</p>
+        </div>
+        <div class="form-container">
+          <form action="homebored.html">
+            <div class="field-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="first-name" name="firstName" placeholder="first name">
+              <img src="/images/error.png" class="error-icon" alt="">
+              <p class="error-text">First Name cannot be empty </p>
+            </div>
+            <div class="field-group">
+              <label for="lastName">First Name</label>
+              <input type="text" id="last-name" name="lastName" placeholder="last name">
+              <img src="/images/error.png" class="error-icon" alt="">
+              <p class="error-text">Last Name cannot be empty </p>
+            </div>
+            <div class="field-group">
+              <label for="Email">Email</label>
+              <input type="email" id="Email" value="" name="Email" placeholder="Email Address">
+              <img src="/images/error.png" class="error-icon" alt="">
+              <p class="error-text">Looks like this is not an email </p>
+            </div>
+            <div class="field-group">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" value=""  placeholder="password">
+              <img src="/images/error.png" class="error-icon" alt="error-img">
+              <p class="error-text">Password cannot be empty </p>
+            </div>
+            <button type="submit">Cure your boredem</button>
+            <button onclick="document.location='index.html'">Back to the board room</button>
+            <p class="form-footer">By clicking, you are agreeing to end your boredom</p>
+
+          </form>
+        </div>
+      </div>
+      </div>
+
+  </section>
+  <script src="/script/main.js"></script>
+</body>
+</html>

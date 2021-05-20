@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+  <title>Beerdom Pairings</title>
+  <link href="CSS/beerdom.css" rel="stylesheet"/>
+</head>
+<body>
+  <ons-page>
+    <ons-toolbar>
+      <div class="center">Beer Pairings</div>
+    </ons-toolbar>
+    <section id="container">
+      <p><ons-input id="food" modifier="underbar" placeholder="Food to Pair"></ons-input>
+    </ons-input></p>
+    <p><ons-button modifier="large" id="btnSearch">Search</ons-button></p>
+      <div id="result"></div>
+    </section>
+  </ons-page>
+  <script src="script/beerdom.js"></script>
+</body>
+</html>
