@@ -7,7 +7,8 @@ user through the boredroom. Boredom by numbers, uses the numbers api and it will
 The sign up page consists of a sign up with first name, last name and password have to filled. Regex is used to validate the user is using a valid email address. When signed up the user is sent to the bored room. I will continue to build more bored rooms. HTML/CSS/JAVASCRIPT were used and linked together. Bored by Numbers and sign up are an interactive forms. Bored by numbers uses ajax to become dynamic.  
 
 Example of the index.html
-<img width="1440" alt="Screen Shot 2021-05-20 at 4 43 39 PM" src="https://user-images.githubusercontent.com/53584920/119047347-cca6ac80-b98b-11eb-9ba5-551b38fe8cd1.png">
+<img width="1306" alt="Screen Shot 2021-05-20 at 5 02 35 PM" src="https://user-images.githubusercontent.com/53584920/119048638-805c6c00-b98d-11eb-82a1-b1be3464cd25.png">
+
 
 Screenshot of Bored by Numbers
 <img width="1080" alt="Screen Shot 2021-05-20 at 4 44 31 PM" src="https://user-images.githubusercontent.com/53584920/119047422-e647f400-b98b-11eb-8d6c-7fb7ce7bb99b.png">
