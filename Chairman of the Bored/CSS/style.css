@@ -22,7 +22,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/bg-intro-mobile.png);
+  background-image: url(/images/coolbackground.png);
   background-color: hsl(0, 100%, 74%);
   padding: 100px 0;
 }

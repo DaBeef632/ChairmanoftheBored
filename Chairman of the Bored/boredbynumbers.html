@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/boredbynumbers.css">
   <style>
     #fact{
       display: none;
@@ -14,11 +15,32 @@
 
 </head>
 <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg text-white bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-warning" href="signup.html">Secretary of the Bored</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BOREDROOMS
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark text-warning" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="boredbynumbers.html">Random Facts</a></li>
+            <li><a class="dropdown-item" href="actbored.html">Random Activities</a></li>
+            <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
   <div class="container">
     <div class="row">
-      <div class="col-md-6 mx-auto">
-       <button type="button" class="btn btn-primary" onclick="document.location='index.html'">Back to the board room</button>
-        <div class="card bg-primary text-white mt-5 p-4">
+      <div class="col-md-6 mx-auto"></div>
+        <div class="card bg-dark text-warning mt-5 p-4 border-warning">
           <h1>Bored By Number Facts</h1>
           <p>Enter a number, increment up or down <span>you will receive a random number to end your boredom</span></p>
           <input type="number" class="form-control form-control-lg" id="numberInput" placeholder="Enter any number...">
@@ -32,32 +54,7 @@
       </div>
     </div>
   </div>
-
-<script>
-  let fact = document.querySelector('#fact');
-  let factText = document.querySelector('#factText');
-
-  let numberInput = document.querySelector('#numberInput');
-  numberInput.addEventListener('input', getFactAjax);
-
-  function getFactAjax(){
-    let number = numberInput.value;
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://numbersapi.com/'+number);
-
-    xhr.onload = function() {
-      if(this.status == 200 && number !=''){
-        fact.style.display = 'block';
-        factText.innerText = this.responseText;
-      }
-
-    }
-
-    xhr.send();
-  }
-
-  </script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
+    <script src="/script/boredbynumbers.js"></script>
 </body>
 </html>
